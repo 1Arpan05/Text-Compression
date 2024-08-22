@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filecomp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="bigdiv">
+            <div class="card-text-center">
+            <div class="card-header"> TEXT FILE COMPRESSION AND DECOMPRESSION TOOL</div>
+            <div class="align" id="step1">
+                <form method="post" enctype="multipart/form-data" class="form" id="fileform">
+                    <input class="file-input-button" type="file" id="uploadfile"  class="input">
+                    <input class="upload-button" type="button" id="submitbtn"  class="input" value="Upload ⤒">
+                </form>
+            </div>
+            <div class="card-text-center2">
+                    <div class="align" id="step2">
+                        <div class="card-body">
+                            <button type="button" id="encode" class="button" >Compress ⭳</button>
+                            &nbsp <span>or</span> &nbsp;
+                            <button type="button" id="decode" class="button" >De-compress ⭳</button>
+                        </div>
+                    </div>
+            </div>
+            <div class="card text-center">
+                <div class="align" id="step3" >
+                    <div class="card-body">
+                        <span class="align" id="text4">
+                        <button class="reload-button" type="button" onclick="location.reload()" >Reload</button>
+                        </span>
+                        <p>To Try Again</p>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
